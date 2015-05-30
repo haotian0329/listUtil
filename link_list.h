@@ -1,10 +1,3 @@
-/*
- * link_list.c
- *
- *  Created on: 2013-10-2
- *      Author: zgf
- */
-
 #ifndef LINK_LIST_H_
 #define LINK_LIST_H_
 

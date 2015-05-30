@@ -1,9 +1,3 @@
-/*
- * link_list.c
- *
- *  Created on: 2013-10-2
- *      Author: zgf
- */
 #include "link_list.h"
 #include <string.h>
 #include <stdlib.h>
