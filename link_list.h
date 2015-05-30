@@ -8,6 +8,10 @@
 #ifndef LINK_LIST_H_
 #define LINK_LIST_H_
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include <sys/types.h>
 
 //定义一个节点单元结构体，双向的
@@ -74,6 +78,10 @@ PLIST_NODE dlink_get_tail(PDLINK pList);
 PLIST_NODE dlink_get_next(PLIST_NODE pCurrent);
 PLIST_NODE dlink_get_prior(PLIST_NODE pCurrent);
 u_int dlink_get_count(PDLINK pList);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif /* STRUCTURES_H_ */
 
